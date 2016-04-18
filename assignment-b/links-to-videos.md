@@ -11,7 +11,7 @@
 ## Assignment B 
 [Video](https://vimeo.com/158636618)
 
-![image](http://imgur.com/hw9Vyrj)
-![image](http://imgur.com/RVt5JhD)
-![image](http://imgur.com/SEEgrBU)
-![image](http://imgur.com/8fytv6s)
+![image](http://i.imgur.com/hw9Vyrj.png)
+![image](http://i.imgur.com/RVt5JhD.png)
+![image](http://i.imgur.com/SEEgrBU.png)
+![image](http://i.imgur.com/8fytv6s.jpg)
