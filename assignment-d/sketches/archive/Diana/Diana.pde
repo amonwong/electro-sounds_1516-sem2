@@ -1,10 +1,15 @@
+// "Study of Diana Lange's Works"
+// Amon Wong 16536, LASALLE 2016, YEAR 2 BA(HONS) Music
+//Principal Studies with Andrea Schegel 
+//Libraries Used: PeasyCam 
 
+// Libraries
 import peasy.*;
 
 // Classes --------------------------------------------------------------------
 PeasyCam cam;
 
-// Globales --------------------------------------------------------------------
+// Variables --------------------------------------------------------------------
 int dotAmount = 500, actRandomSeed, circleAmount = 16, maxPositionFactor = 10, frameCounter;
 float positionFactor, zFactor, connectionFactor, oldCircleSize, morphCount;
 PVector dotList[];
@@ -23,9 +28,7 @@ void setup()
   smooth();
   frameRate(30);
   
-
-
-
+  // she does several tabs to make do with her sketch
   setSetup();
   setupDotList ();
   creatDotList ();
@@ -35,7 +38,7 @@ void draw()
 {
   background (0);
 
-
+  // create dotlist then draw lines between dots
   if (morphing == true) creatDotList();
 
   drawLinesBetweenDots();
@@ -58,6 +61,8 @@ void draw()
     morphing = true;
     frameCounter = 0;
   }
+  
+  // added this filter to see if her sketch works well with filters
   if (key == '2') {
     filter(ERODE);
   }

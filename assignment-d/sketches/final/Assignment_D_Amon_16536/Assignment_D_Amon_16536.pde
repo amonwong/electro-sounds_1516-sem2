@@ -4,7 +4,7 @@
 //Music Used: Amon Wong - "Past and Languages" 
 //https://vimeo.com/163207128
 //https://www.youtube.com/watch?v=uIxuCLkh5l8&feature=youtu.be
-//Libraries Used: Minim & Syphon & PeasyCam
+//Libraries Used: Minim, Syphon, PeasyCam & Midibus 
 
 // Keyboard Controls : 
 // 1 = "Original State" 

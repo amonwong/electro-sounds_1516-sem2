@@ -2,7 +2,7 @@ void setSetup()
 {
 
 
-  // SetSize --------------------------------------------------------------------
+  // Set Size 
   actRandomSeed = 100; //possibilities of structure 
 
   isPlaying = true;
@@ -13,13 +13,13 @@ void setSetup()
 
 
 
-  zFactor = 13; // How long the structure extends (1) 
+  zFactor = 13; // How long the structure extends (1 is default) 
   connectionFactor = 0.6;
   oldCircleSize = 100;
   morphCount = 0;
   frameCounter = 0;
 
-  // Camera --------------------------------------------------------------------
+  // Camera 
   cam = new PeasyCam(this, width/2, height/2, 0, 1000);
   cam.setMinimumDistance(50);
   cam.setMaximumDistance(8000);

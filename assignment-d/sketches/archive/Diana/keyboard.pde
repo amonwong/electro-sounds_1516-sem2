@@ -1,3 +1,5 @@
+// Control
+
 void keyReleased ()
 {
   if (key == 'q' ) 
@@ -16,9 +18,7 @@ void keyReleased ()
 
 void keyPressed()
 {
-
-
-  // Position------------------------------------------------------------------------
+  // Position
   if (key == 'a' ) 
   {
     positionFactor -= 0.10;
@@ -33,7 +33,6 @@ void keyPressed()
     creatDotList ();
   }
 
-  // Tiefe------------------------------------------------------------------------
   if (key == 'e' ) {
     zFactor -= 0.1;
     zFactor = constrain (zFactor,0,4);
@@ -44,7 +43,7 @@ void keyPressed()
     zFactor = constrain (zFactor,0,4);
   }
 
-  // LinesNumber------------------------------------------------------------------------
+  // No. of Lines 
   if (key == 'y' ) {
     connectionFactor -=0.05;
     connectionFactor = constrain (connectionFactor, 0,2);
@@ -55,9 +54,8 @@ void keyPressed()
     connectionFactor = constrain (connectionFactor, 0,2);
   }
     
-  // Alternative Mode------------------------------------------------------------------------
+  // Alternative Drawing Mode
   
-  if (key == '1' ) 
   {
     if (altMode == false) 
     {

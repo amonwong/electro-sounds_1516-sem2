@@ -1,5 +1,5 @@
 
-
+// Preparing the dotlist
 void setupDotList()
 {
   dotList = new PVector [ dotAmount ];
@@ -7,7 +7,7 @@ void setupDotList()
   prevCircleSizeList = new float [ circleAmount ];
   prevDotList = new PVector [ dotAmount ];
 }
-
+// Create the dotlist
 void creatDotList()
 {
   randomSeed(actRandomSeed);
@@ -23,7 +23,8 @@ void creatDotList()
 
     int centerX = width/2;
     int centerY = height/2;
-
+    
+    //create no. of dots based on circle 
     int objectCount = dotAmount/circleAmount;
     
     float radius = random (50, (width+height)/4); //centre radius 
@@ -80,7 +81,6 @@ void creatDotList()
       // morph old x,y,z to new x,y,z
       if (morphing == true) 
       {
-        // alte Werte für x,y,z ---------------------------------------------
         checkDot = prevDotList [ dotCount ];
         float startX = checkDot.x, startY = checkDot.y, startZ = checkDot.z;
         float targetX = x, targetY = y, targetZ = z;
@@ -105,6 +105,7 @@ void creatDotList()
 
 }
 
+// actually drawing the lines
 void drawLinesBetweenDots ()
 {
   int dotCount = 0;

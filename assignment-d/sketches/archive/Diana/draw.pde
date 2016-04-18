@@ -1,4 +1,4 @@
-
+// manipulation of lines between the dots
 void checkDistanceRight (PVector currentDot)
 {
   int dotCount = 0;
