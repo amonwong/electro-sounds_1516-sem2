@@ -4,9 +4,19 @@
 # Wong Chong Hao 16536
 # http://amonmakesoriginalnoises.tumblr.com/tagged/processing
 
-https://vimeo.com/163207128
-  
+## Assignment D 
+[Video](https://vimeo.com/163207128)
+
+![image](http://40.media.tumblr.com/acd252a73eaae5f132f6b87263ee34c7/tumblr_o5tdfpH4fl1udcd6jo1_1280.png)
+
+![image](http://41.media.tumblr.com/08a81b40eeba2953b967c4acc9ed4c2a/tumblr_o5tdfpH4fl1udcd6jo4_1280.png)
+
+![image](http://40.media.tumblr.com/6e1c5a3d2bfb4c73d46562b322ddb434/tumblr_o5tdfpH4fl1udcd6jo5_1280.png)
+
+![image](http://41.media.tumblr.com/03e8d94863e60002c42eb19b44bf66d9/tumblr_o5tdfpH4fl1udcd6jo8_1280.png)
+
  <b>”Deep” by Amon Wong</b>
+
 
 # Project Description
 

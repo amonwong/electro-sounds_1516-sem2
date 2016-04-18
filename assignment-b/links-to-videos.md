@@ -7,4 +7,11 @@
 # http://amonmakesoriginalnoises.tumblr.com/tagged/processing
 
 
-https://vimeo.com/157943147
+
+## Assignment B 
+[Video](https://vimeo.com/158636618)
+
+![image](http://imgur.com/hw9Vyrj)
+![image](http://imgur.com/RVt5JhD)
+![image](http://imgur.com/SEEgrBU)
+![image](http://imgur.com/8fytv6s)

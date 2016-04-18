@@ -4,9 +4,15 @@
 # Wong Chong Hao 16536
 # http://amonmakesoriginalnoises.tumblr.com/tagged/processing
 
-  https://vimeo.com/150841540 
-  
-  <b>1DDCB (New Age Dark Age) by Raven Kwok</b>
+
+## Assignment C
+
+[Video](https://vimeo.com/150841540)
+
+![image](http://41.media.tumblr.com/094dd5c702f4ec1051b8f9aeb8aecb10/tumblr_o4nri3ZjyN1udcd6jo1_1280.jpg)
+
+
+![image](http://41.media.tumblr.com/131c5534b4f27097a36250258bdc7163/tumblr_o4nri3ZjyN1udcd6jo2_1280.jpg)  <b>1DDCB (New Age Dark Age) by Raven Kwok</b>
 
 # Why I chose this project? 
 I chose Raven Kwok’s 1DDCB <i>(New Age Dark Age)</i> because it’s a hybrid derivative to two of his other generative art pieces <i>(Skyline and Stickup)</i>. The entire system is done with real-time processing and blends the two works' visual elements. The forms introduced are audio-reactive and camera-reactive and despite its seemingly complex visual elements, you can see how he manipulates the colour between foreground and background to bring our attention to different algorithm forms. 

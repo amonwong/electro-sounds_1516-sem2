@@ -6,11 +6,10 @@
 #### 16536
 ###### *http://amonmakesoriginalnoises.tumblr.com/tagged/processing*!
 
-*This repository seeks to document my progress in learning Processing at Lasalle College of The Arts Year 2. This module is overseen by Andreas Schegel.*
+*This repository seeks to document my progress in learning Processing at Lasalle College of The Arts Year 2. This module is taught by Andreas Schlegel.*
 
 
 ### Assignment A 
-
 ![image](http://49.media.tumblr.com/415352a570d06f8dfd20b2773ca180d5/tumblr_o1iqdzGZ1Y1udcd6jo1_400.gif)
 
 ![image](http://49.media.tumblr.com/4536d13deaf1f7ff5660806c0d49154f/tumblr_o1iqdzGZ1Y1udcd6jo2_400.gif)
@@ -20,8 +19,15 @@
 ### Assignment B 
 [Video](https://vimeo.com/158636618)
 
+![image](http://imgur.com/hw9Vyrj)
+![image](http://imgur.com/RVt5JhD)
+![image](http://imgur.com/SEEgrBU)
+![image](http://imgur.com/8fytv6s)
+
  
 ### Assignment C
+[Video](https://vimeo.com/150841540)
+
 ![image](http://41.media.tumblr.com/094dd5c702f4ec1051b8f9aeb8aecb10/tumblr_o4nri3ZjyN1udcd6jo1_1280.jpg)
 
 
