@@ -1,10 +1,9 @@
-
-//"Woodblock" by Amon Wong 16536, LASALLE 2016, YEAR 2 BA(HONS) Music 
+//"Deep" by Amon Wong 16536, LASALLE 2016, YEAR 2 BA(HONS) Music 
 //Principal Studies with Andrea Schegel
-//Inspired by Raven Kwok, Ryoji Ikeda, Ryoichi Kurokawa
-//Credits to Reddit's Processing community for helping out with TunnelCamera
+//Inspired by Raven Kwok, Ryoji Ikeda, Ryoichi Kurokawa, Diana Lange
 //Music Used: Amon Wong - "Past and Languages" 
-//
+//https://vimeo.com/163207128
+//https://www.youtube.com/watch?v=uIxuCLkh5l8&feature=youtu.be
 //Libraries Used: Minim & Syphon & PeasyCam
 
 // Keyboard Controls : 
@@ -66,7 +65,8 @@ void setup() {
   // Minim
   in = minim.getLineIn(Minim.STEREO, 128);
   beat = new BeatDetect();
-
+  
+  // Creating no. of Boxes
   boxes = new ArrayList();
   for (int x=0; x<10; x++) {
     for (int y=0; y<10; y++) {
@@ -81,7 +81,6 @@ void setup() {
 //DRAW
 void draw() {
   background(10, 30);
-
   colorMode(HSB, 360, 100, 100);
 
 
@@ -92,12 +91,10 @@ void draw() {
   directionalLight(102, 102, 102, 0, 0, -1);
   specular(255, 255, 255);
   shininess(10.0);
-
-  noStroke();
   lights();
   translate(width/2, height/2);
 
-  //To Link with Keyboard
+  //To Link with Keyboard (Movement)
   if (key == '1') {
     rotateY(frameCount*0.002);
     rotateX(frameCount*0.002);
@@ -107,9 +104,7 @@ void draw() {
     rotateY(frameCount*0.002);
   }
 
-
-
-
+// Draw Boxes
   for (Box box : boxes) {
     box.draw();
     box.update();

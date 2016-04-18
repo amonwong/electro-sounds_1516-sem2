@@ -32,6 +32,7 @@ class Box {
     z += (nz-z)*scl;
   }
 
+  //Distance between boxes
   void change(float theDist, float theScl) {
     scl = theScl;
     nx = random(-5, 5)*theDist;
@@ -42,6 +43,7 @@ class Box {
   void minimline() {
     beat.detect(in.mix);
 
+  // Draw Lines 'w'
     if (key == 'w') {
       for (int i = 0; i < in.bufferSize() - 1; i+=5)
       {     
