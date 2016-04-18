@@ -18,7 +18,7 @@ What intrigued me about Raven Kwok’s <i>Algorithmic Creatures</i> series was t
 
 
 # How does it work? 
-The piece uses Minim to generate its audio-reactive lines. The white lines are mapped to react to frequency whereas, the yellow lines are triggered upon a spike in amplitude. PeasyCam is used to control all the camera movements. The boxes are generated at the centre of the piece and then explodes into random places in space, with  each box limited to a certain distance from each other. 
+The piece uses Minim to generate its audio-reactive lines. The white lines are mapped to react to frequency whereas, the yellow lines are triggered upon a spike in amplitude. PeasyCam is used to control all the camera movements. The boxes are generated at the centre of the piece and then explodes into random places in space, with  each box limited to a certain distance from each other. Midibus is paired with a keyboard for controlled glitch effects such as displacing the boxes or shifting the camera movement. 
 
 
 

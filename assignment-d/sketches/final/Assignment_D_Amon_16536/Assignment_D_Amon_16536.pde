@@ -11,7 +11,7 @@
 // 2 = "Explode Cubes" 
 // 3 = "Move Cubes Slowly" 
 // w = "Draw Lines" 
-
+// keyboard = "to glitch"
 
 
 //IMPORT LIBRARIES
@@ -19,6 +19,8 @@ import ddf.minim.*;
 import ddf.minim.analysis.*;
 import codeanticode.syphon.*;
 import peasy.*;
+import themidibus.*; 
+import javax.sound.midi.MidiMessage; 
 
 //ESTABLISH
 Minim minim;
@@ -26,6 +28,7 @@ AudioInput in;
 BeatDetect beat;
 SyphonServer server;
 PeasyCam cam;
+MidiBus myBus; 
 
 
 
@@ -39,6 +42,9 @@ int gridMaxY = 20;
 
 float chaos = 2;
 float chaosF = 0.01; 
+int midiDevice  = 3;
+float cammin = 50;
+float cammax = 8000;
 
 //Syphon Settings
 void settings() {
@@ -52,6 +58,10 @@ void setup() {
   size(960, 540, P3D);
   //noCursor();
   
+  //Midi Bus
+  MidiBus.list(); 
+  myBus = new MidiBus(this, midiDevice, 1); 
+  
   //Syphon
   server = new SyphonServer(this, "Processing Syphon");
   minim = new Minim(this);
@@ -59,8 +69,8 @@ void setup() {
 
   //PeasyCam 
   cam = new PeasyCam(this, width/2, height/2, 0, 1000);
-  cam.setMinimumDistance(50);
-  cam.setMaximumDistance(8000);  
+  cam.setMinimumDistance(cammin);
+  cam.setMaximumDistance(cammax);  
 
   // Minim
   in = minim.getLineIn(Minim.STEREO, 128);
