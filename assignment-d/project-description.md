@@ -8,17 +8,15 @@ https://www.youtube.com/watch?v=uIxuCLkh5l8&feature=youtu.be
 
 # Project Description
 
+“Deep” is a refining of my initial sketch “Woodblock” done earlier for Assignment B. It is paired with an original ambient piece titled “Past and Languages”. The piece comes from a place of anguish, being holed up in one’s room/cube and a reminder of the Bible verse, Psalms 42:7 <i>“Deep Cries Out”</i>. The piece serves as a reminder to all that there is light in the darkness and that we are somehow all connected through one entire cosmos. 
 
+“Deep” draws it’s main influences from Raven Kwok’s <i>Algorithmic Creatures</i> series, Diana Lange’s <i>Audio and Beat Detection</i> series as well as Ryoichi Kurokawa’s <i>syn.</i>. I chose to extensively study their codes, at least what I could find of it, in the process of creating “Deep” but I am proud to say that my code is completely original. 
 
+What intrigued me about Raven Kwok’s<i>Algorithmic Creatures</i> series was the lifeforms that Kwok created. Their cellular-like behaviour was created using a series of flocking and vector algorithms, which I managed to replicate using my mouse and PeasyCam, angling it in such a way that displays complexity but yet, is easily controllable and predictable. Diana Lange’s <i>Audio and Beat Detection</i> series showed me the beauty of using lines to achieve movement. She uses beat detection to manipulate the width of her circles as well as the length of the lines, which I used as inspiration to connect my cubes using audio-reactive lines. Ryoichi Kurokawa’s <i>syn.</i> uses OpenFrameworks for his work, but what I enjoyed particularly about <i>syn.<i> is how the lines are mapped to individual pixels of an object and how they resemble fading toothpicks, which was something I adopted into my piece.  
 
-I chose Raven Kwok’s 1DDCB <i>(New Age Dark Age)</i> because it’s a hybrid derivative to two of his other generative art pieces <i>(Skyline and Stickup)</i>. The entire system is done with real-time processing and blends the two works' visual elements. The forms introduced are audio-reactive and camera-reactive and despite its seemingly complex visual elements, you can see how he manipulates the colour between foreground and background to bring our attention to different algorithm forms. 
-
-What I enjoy particularly about this piece is the use of Voronoi tessellation and how they interact with the music. I am interested in the idea of “<i>organic</i>” creative coding and real-time processing using sound as the core element. Raven’s work inspires me to work towards that direction visually. 
 
 # How does it work? 
-Raven describes 1DDCB as <i>"consisting of multiple layers of quadtree structures. These structures partition the 3D space into block quadrants which further subdivides within itself"</i>. He further explains that <i>"the vertices of each cell within the quadtree are used as seeds to generate a layer of Voronoi tessellation, collectively forming a fragmental geometric chaos."</i> 
- 
-He could have used Karsten Schmidt's <b>toxiclibs</b> or Lee Byron's <b>Mesh</b> to generate the quadtree structures. When the sketch switches colour between the backgrounds, the quadtree structures are refreshed, generating quads within it. The vertices of each cell are then sorted into different agents driven by the song's audio spectrum (<i>Damien Di Fede's</i> <b>Minim</b>) to generate the different Voronoi tessellations. He could have possibly used <b>PeasyCam</b> or a z-axis camera to move down the z-axis. To get this sort of precision, he could have used something like <b>Duration</b> to sync the audio and visual. 
+The piece uses Minim to generate its audio-reactive lines. The white lines are mapped to react to frequency whereas, the yellow lines are triggered upon a spike in amplitude. 
 
 
 
